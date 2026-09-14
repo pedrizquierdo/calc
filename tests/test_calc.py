@@ -1,4 +1,4 @@
-from operaciones import sumar, multiplicar
+from operaciones import sumar, multiplicar, dividir
 
 
 def test_sumar():
@@ -11,3 +11,8 @@ def test_mult():
     #En este caso de prueba, verificamos que el resultado obtenido
     #de la funcion sea igual al resultado esperado que es 42
     assert multiplicar(6, 7) == 42
+
+def test_dividir():
+    #En este caso de prueba, verificamos que el resultado obtenido
+    #de la funcion sea igual al resultado esperado que es 2
+    assert dividir(6, 3) == 2
